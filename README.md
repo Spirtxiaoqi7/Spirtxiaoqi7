@@ -2,6 +2,12 @@
 
 > Building continuity for AI beyond the context window.
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-Memory%20Systems-blueviolet)
+![LLM](https://img.shields.io/badge/LLM-Dialogue%20Agents-black)
+![Open Source](https://img.shields.io/badge/Open%20Source-AI%20Memory-green)
+
 我在构建 AI 的外部流动记忆系统，让长期对话智能体在上下文清空、模型切换和长期交互之后，仍然能保持时间意识、人格连续性与可审计的记忆依据。
 
 My main work is **ARPM**, an External Fluid Memory framework for long-term AI dialogue continuity, cross-model persona consistency, and time-aware retrieval.
@@ -61,7 +67,22 @@ Experiments around personal AI assistants, memory governance, and dialogue consi
 
 ## Tech Stack
 
-Python · FastAPI · RAG · BM25 · Vector Search · RRF · LLM APIs · Long-context dialogue · Memory systems · Experimental logging
+**AI / Memory Systems**  
+RAG · BM25 · Vector Search · RRF · Long-term Memory · Dialogue Agents · Cross-model Relay
+
+**Backend / Engineering**  
+Python · FastAPI · API Integration · Logging · Evaluation Pipelines
+
+**Frontend / Interaction**  
+JavaScript · SillyTavern Tools · Long-context Dialogue UI
+
+---
+
+## GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Spirtxiaoqi7&show_icons=true&theme=transparent)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Spirtxiaoqi7&layout=compact&theme=transparent)
 
 ---
 
