@@ -1,16 +1,25 @@
 # 柒君 / Spirtxiaoqi7
 
-> Building continuity for AI beyond the context window.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=2800&pause=800&center=true&vCenter=true&width=900&lines=Building+continuity+for+AI+beyond+the+context+window.;External+Fluid+Memory+for+long-term+AI+dialogue.;Cross-model+persona+continuity+and+time-aware+retrieval." />
+</p>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-Memory%20Systems-blueviolet)
-![LLM](https://img.shields.io/badge/LLM-Dialogue%20Agents-black)
-![Open Source](https://img.shields.io/badge/Open%20Source-AI%20Memory-green)
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-AI%20Memory-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ARPM-External%20Fluid%20Memory-blueviolet?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/RAG-BM25%20%2B%20Vector%20%2B%20RRF-0A66C2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Long%20Dialogue-Continuity-success?style=for-the-badge" />
+</p>
+
+---
+
+## About Me
 
 我在构建 AI 的外部流动记忆系统，让长期对话智能体在上下文清空、模型切换和长期交互之后，仍然能保持时间意识、人格连续性与可审计的记忆依据。
 
 My main work is **ARPM**, an External Fluid Memory framework for long-term AI dialogue continuity, cross-model persona consistency, and time-aware retrieval.
+
+I use AI-assisted development to read, repair, and extend unfamiliar codebases across multiple languages.
 
 ---
 
@@ -67,22 +76,23 @@ Experiments around personal AI assistants, memory governance, and dialogue consi
 
 ## Tech Stack
 
-**AI / Memory Systems**  
-RAG · BM25 · Vector Search · RRF · Long-term Memory · Dialogue Agents · Cross-model Relay
+**Core Work**  
+Python · FastAPI · RAG · BM25 · Vector Search · RRF · LLM APIs · Long-term Memory Systems
 
-**Backend / Engineering**  
-Python · FastAPI · API Integration · Logging · Evaluation Pipelines
+**AI-assisted Engineering**  
+Java · C++ · JavaScript · API Migration · Legacy Code Debugging · Dependency Hell Fixing
 
-**Frontend / Interaction**  
-JavaScript · SillyTavern Tools · Long-context Dialogue UI
+**Interaction Tools**  
+SillyTavern Plugins · Long-context Dialogue UI · Experimental Logging
 
 ---
 
 ## GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Spirtxiaoqi7&show_icons=true&theme=transparent)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Spirtxiaoqi7&layout=compact&theme=transparent)
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Spirtxiaoqi7&show_icons=true&theme=transparent&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Spirtxiaoqi7&layout=compact&theme=transparent&hide_border=true" />
+</p>
 
 ---
 
