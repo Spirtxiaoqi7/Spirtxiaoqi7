@@ -30,6 +30,8 @@
 
 我在构建 AI 的外部流动记忆系统，让长期对话智能体在上下文清空、模型切换和长期交互之后，仍然能保持时间意识、人格连续性与可审计的记忆依据。
 
+arxiv:https://arxiv.org/abs/2605.14802
+
 My main work is **ARPM**, an External Fluid Memory framework for long-term AI dialogue continuity, cross-model persona consistency, and time-aware retrieval.
 
 I use AI-assisted development to read, repair, and extend unfamiliar codebases across multiple languages.
