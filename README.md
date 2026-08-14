@@ -1,185 +1,153 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:312e81,100:7c3aed&height=180&section=header&text=Spirtxiaoqi7&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=External%20Fluid%20Memory%20%7C%20AI%20Continuity%20%7C%20Long-term%20Dialogue&descSize=16&descAlignY=58" />
-</p>
-
-<h1 align="center">柒君 / Spirtxiaoqi7</h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2800&pause=900&center=true&vCenter=true&width=950&lines=Building+continuity+for+AI+beyond+the+context+window.;External+Fluid+Memory+for+long-term+AI+dialogue.;Cross-model+persona+continuity+and+time-aware+retrieval.;A+model+can+be+replaced.+A+broken+memory+chain+cannot." />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:08111f,48:12314a,100:0f766e&height=190&section=header&text=柒君%20%2F%20Spirtxiaoqi7&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Long-term%20AI%20Memory%20%C2%B7%20Auditable%20RAG%20%C2%B7%20Persona%20Continuity&descSize=17&descAlignY=58" alt="Spirtxiaoqi7 header" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-AI%20Memory-black?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/ARPM-External%20Fluid%20Memory-7c3aed?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/RAG-BM25%20%2B%20Vector%20%2B%20RRF-0A66C2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Dialogue-Long--term%20Continuity-16a34a?style=for-the-badge" />
+  <a href="https://arxiv.org/abs/2605.14802"><img src="https://img.shields.io/badge/arXiv-2605.14802-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="ARPM paper"></a>
+  <a href="https://arxiv.org/abs/2607.01248"><img src="https://img.shields.io/badge/arXiv-2607.01248-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="Practice auditing paper"></a>
+  <a href="https://github.com/Spirtxiaoqi7/ARPM"><img src="https://img.shields.io/github/stars/Spirtxiaoqi7/ARPM?style=for-the-badge&logo=github&label=ARPM" alt="ARPM stars"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Vue-4FC08D?style=flat&logo=vuedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white" />
+  <a href="https://github.com/Spirtxiaoqi7/ARPM"><strong>ARPM</strong></a>
+  ·
+  <a href="https://github.com/Spirtxiaoqi7/Mindspace"><strong>Mindspace</strong></a>
+  ·
+  <a href="https://github.com/Spirtxiaoqi7/mindspace-dsh-local-rag"><strong>Local RAG for DSH</strong></a>
+  ·
+  <a href="https://github.com/Spirtxiaoqi7/mindspace-dsh-session-memory"><strong>Session Memory for DSH</strong></a>
 </p>
 
 ---
 
-## About Me
+## Research identity
 
-我在构建 AI 的外部流动记忆系统，让长期对话智能体在上下文清空、模型切换和长期交互之后，仍然能保持时间意识、人格连续性与可审计的记忆依据。
+I build **memory infrastructure for long-lived AI systems**: external memory governance, hybrid retrieval, persona continuity, evidence-bound generation, and user-auditable interaction.
 
-arxiv:https://arxiv.org/abs/2605.14802
+我关注的不是让模型“看起来记得”，而是让长期 AI 在**上下文清空、模型切换、高噪声知识库和长期互动**之后，仍能给出可追溯的连续性，并允许用户查看、纠正、删除与回滚其记忆依据。
 
-My main work is **ARPM**, an External Fluid Memory framework for long-term AI dialogue continuity, cross-model persona consistency, and time-aware retrieval.
+> **Continuity is not a prompting trick. It is a memory-governance problem.**
 
-I use AI-assisted development to read, repair, and extend unfamiliar codebases across multiple languages.
+My work currently connects three layers:
 
----
-
-## Main Work
-
-### ARPM — External Fluid Memory for AI Continuity
-
-ARPM is not a normal RAG wrapper.
-
-It is a memory governance framework for long-term AI companions and dialogue agents.
-
-It focuses on:
-
-- Cross-model persona continuity
-- Time-aware dialogue memory
-- Dual-source retrieval: knowledge memory + dialogue history
-- Dual-timescale evidence: physical time + turn-index time
-- BM25 + vector retrieval + RRF fusion
-- Memory promotion, clustering, merge, rollback and audit logs
-- Analysis-style generation instead of pure roleplay prompting
-
-The goal is to make AI continuity external, recoverable, and auditable.
+1. **Research** — formalize long-term persona consistency and AI-use auditing;
+2. **Systems** — implement external memory, temporal retrieval, controlled analysis, and evidence governance;
+3. **Products & plugins** — ship the ideas through ARPM, Mindspace, SillyTavern extensions, and DeepSeek Harness plugins.
 
 ---
 
-## Featured Projects
+## Publications
 
-### ARPM
+### 1. A Heterogeneous Temporal Memory Governance Framework for Long-Term LLM Persona Consistency
 
-External Fluid Memory framework for long-term AI dialogue continuity.
+**arXiv:2605.14802 · cs.AI · 2026**<br>
+[Abstract](https://arxiv.org/abs/2605.14802) · [PDF](https://arxiv.org/pdf/2605.14802) · [Code: ARPM](https://github.com/Spirtxiaoqi7/ARPM)
 
-- Long-term dialogue memory
-- Cross-model relay
-- Retrieval governance
-- Time-aware evidence
-- Memory promotion and rollback
+Introduces **ARPM**, an external temporal memory-governance framework that separates static knowledge from dialogue experience and combines vector retrieval, BM25, RRF fusion, dual-temporal reranking, chronological evidence reading, and controlled analysis.
 
-### Pretext / SillyTavern Tools
+The work treats long-term persona consistency as a **traceable, auditable, and transferable** systems problem rather than a property hidden inside model weights.
 
-Frontend and interaction tooling for long-context AI dialogue workflows.
+### 2. A Practice Auditing Framework for Large Language Model Use
 
-- Dialogue UI enhancement
-- Long-context rendering
-- Companion interaction tools
-- Frontend-side workflow optimization
+**Collective Empiricism, Pseudo-Rational Cognition, and Governance of AI-Generated Content**<br>
+**arXiv:2607.01248 · cs.CY / cs.AI · 2026**<br>
+[Abstract](https://arxiv.org/abs/2607.01248) · [PDF](https://arxiv.org/pdf/2607.01248)
 
-### AI Companion Tools
+Proposes a practice-auditing framework for LLM use and AI-generated content. It examines collective empiricism, pseudo-rational cognition, subjectivity illusion, template loops, statistical misjudgment, and **memory pollution when generated content re-enters retrieval or agent systems**.
 
-Experiments around personal AI assistants, memory governance, and dialogue consistency.
-
-- Persona continuity
-- Memory inspection
-- Multi-model testing
-- Interaction experiments
+The proposed response is operational: requirement definition, evidence-source auditing, practical validation, reverse questioning, logging, version management, rollback, and renewed cognition.
 
 ---
 
-## Tech Stack
-
-### Core Engineering
-
-Python · FastAPI · Flask · JavaScript · TypeScript · HTML · CSS · Git · GitHub · Docker · Linux · Windows
-
-### AI / LLM Engineering
-
-LLM APIs · Prompt Engineering · RAG · Long-term Memory · Context Management · Multi-model Dialogue · Agentic Workflows
-
-### Retrieval / Memory Systems
-
-BM25 · Vector Search · RRF · Hybrid Retrieval · Time-aware Retrieval · Memory Promotion · Memory Clustering · Audit Logs
-
-### Backend
-
-RESTful API · WebSocket · SQLite · MySQL · JSON/YAML Config · Logging · Async Tasks · API Integration
-
-### Frontend / Interaction Tools
-
-Vue · Browser-side Tools · SillyTavern Plugins · Long-context Dialogue UI · Human-AI Interaction Tools
-
-### AI-assisted Maintenance
-
-Java · C++ · Node.js · Legacy Code Reading · Dependency Fixing · API Migration · Bug Diagnosis · Environment Recovery
-
-### Data / Evaluation
-
-Experiment Logs · Ablation Studies · Dialogue Evaluation · CSV/JSON Processing · Human-in-the-loop Testing · Cross-model Experiments
-
----
-
-## Current Focus
-
-- External Fluid Memory
-- Long-term AI companion continuity
-- Cross-model dialogue relay
-- Time-aware retrieval
-- Memory governance
-- RAG under real conversational pressure
-- Auditable AI persona systems
-- Local LLM deployment and interaction tools
-
----
-
-## Experiments
-
-ARPM has been tested through real long-form dialogue pressure, including:
-
-- 300–1000+ round dialogue sessions
-- Context reset experiments
-- Cross-model relay experiments
-- Retrieval ablation studies
-- Human-in-the-loop dialogue evaluation
-- Logs for retrieval, generation, promotion, correction and rollback behavior
-
-I care less about perfect demos and more about whether the system survives real interaction.
-
----
-
-## GitHub Stats
+## Research programme
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Spirtxiaoqi7&show_icons=true&theme=transparent&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Spirtxiaoqi7&layout=compact&theme=transparent&hide_border=true" />
+  <strong>Interaction & sources</strong> → <strong>Governed memory</strong> → <strong>Hybrid retrieval</strong> → <strong>Evidence-bound analysis</strong> → <strong>Inspection & rollback</strong>
 </p>
 
+### Memory governance
+
+- Separate knowledge, dialogue experience, user profile, preferences, instructions, and relationship state;
+- preserve physical time, turn order, source location, and revision history;
+- merge compatible information and explicitly replace contradictions;
+- keep memory editable and recoverable instead of treating a vector index as an opaque truth store.
+
+### Retrieval under conversational pressure
+
+- hybrid lexical and semantic retrieval rather than vector-only similarity;
+- parent-child chunking and source-preserving evidence;
+- session-isolated dialogue recall plus global knowledge retrieval;
+- graceful lexical fallback when the local embedding route is stopped or unavailable.
+
+### Auditable human-AI interaction
+
+- distinguish model fluency from verified understanding;
+- keep generated content from silently polluting future memory;
+- bind important claims to inspectable evidence and execution traces;
+- return AI output to reproducible practice instead of accepting structured prose as proof.
+
+---
+
+## Selected systems
+
+| Project | Role in the research line | What is implemented |
+|---|---|---|
+| [**ARPM**](https://github.com/Spirtxiaoqi7/ARPM) | Core research framework | Analysis-based role-playing with memory, dual-source retrieval, vector + BM25 + RRF, temporal weighting, controlled state/analysis/response protocol, LOCOMO evaluation |
+| [**Mindspace**](https://github.com/Spirtxiaoqi7/Mindspace) | Local-first AI companion system | LangGraph orchestration, layered memory, standard character cards, visible tools, local voice stack, desktop launcher, long-term RAG |
+| [**mindspace-dsh-local-rag**](https://github.com/Spirtxiaoqi7/mindspace-dsh-local-rag) | Independent RAG branch for DeepSeek Harness | Model-invoked local retrieval, PDF/DOCX/TSV ingestion, vector + BM25 lanes, session-isolated compaction summaries, source preview, editable/versioned corpora |
+| [**mindspace-dsh-session-memory**](https://github.com/Spirtxiaoqi7/mindspace-dsh-session-memory) | Structured memory governance for DeepSeek Harness | Per-session user profile, categorized preferences, assistant requirements, relationship mission, role preset, conflict replacement, visible memory audit |
+| [**st-ARPM**](https://github.com/Spirtxiaoqi7/st-ARPM) | SillyTavern protocol adapter | Keeps visible response history, extracts compact relationship state, removes hidden analysis from future requests |
+| [**st-pretext-height-profiler**](https://github.com/Spirtxiaoqi7/st-pretext-height-profiler) | Long-dialogue UI experiment | Real-height virtual scrolling, node reuse, overscan, and A/B performance measurement for long chat histories |
+
+---
+
+## Evidence from released work
+
+- ARPM was evaluated under a **5.1-million-character noise substrate**, periodic context clearing, and multi-model handoff.
+- In the reported ablation, removing dialogue-history retrieval reduced strict accuracy from **100% to 66.7%**; removing BM25 reduced it to **80.0%**.
+- The public ARPM repository includes reproducible evaluation material and a full LOCOMO run.
+- The DeepSeek Harness Local RAG plugin ships with source-aware ingestion, session-isolation tests, model lifecycle tests, and governance/rollback coverage.
+- Mindspace carries the research into a local desktop system rather than leaving it as a paper-only prototype.
+
+I care less about a perfect one-shot demo than whether a system survives **real long-form interaction, correction, migration, and failure recovery**.
+
+---
+
+## Current focus
+
+- long-term persona consistency across model and context boundaries;
+- heterogeneous temporal memory and retrieval governance;
+- local, inspectable RAG for user-owned files and conversation history;
+- structured personalization memory with conflict-aware updates;
+- memory pollution and evidence auditing in agent systems;
+- practical AI companions that preserve user control.
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Spirtxiaoqi7&theme=transparent&hide_border=true" />
+  <img src="https://img.shields.io/badge/Python-Memory%20%26%20Agent%20Systems-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-DSH%20Plugins-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/LangGraph-Agent%20Orchestration-1C3C3C?style=flat-square" alt="LangGraph">
+  <img src="https://img.shields.io/badge/Retrieval-BM25%20%C2%B7%20Vector%20%C2%B7%20RRF-0F766E?style=flat-square" alt="Hybrid retrieval">
 </p>
 
 ---
 
-## Contact / Links
+## Principles
 
-- GitHub: [Spirtxiaoqi7](https://github.com/Spirtxiaoqi7)
-- Main Project: [ARPM](https://github.com/Spirtxiaoqi7/ARPM)
-- Focus: AI Memory Systems · Long-term Dialogue · Cross-model Continuity
+> A model can be replaced. A broken memory chain cannot.
+
+> Retrieval without provenance is suggestion, not evidence.
+
+> AI productivity matters only when its results can return to verification, intervention, and rollback.
 
 ---
 
-## Principle
+## Links
 
-A model can be replaced.  
-A broken memory chain cannot.
-
-I build the layer in between.
+- GitHub: [@Spirtxiaoqi7](https://github.com/Spirtxiaoqi7)
+- Main research system: [ARPM](https://github.com/Spirtxiaoqi7/ARPM)
+- Local companion system: [Mindspace](https://github.com/Spirtxiaoqi7/Mindspace)
+- arXiv: [2605.14802](https://arxiv.org/abs/2605.14802) · [2607.01248](https://arxiv.org/abs/2607.01248)
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:312e81,100:0f172a&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,52:12314a,100:08111f&height=120&section=footer" alt="footer" />
 </p>
